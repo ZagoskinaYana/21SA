@@ -1,0 +1,6 @@
+n = int(input())
+k = int(input())
+get = k/n
+remains = k%n
+print(get)
+print(remains)
