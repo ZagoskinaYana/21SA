@@ -1,0 +1,5 @@
+x = float(input())
+math.floor(x)
+math.ceil(x)
+result = math.floor(x) + math.ceil(x)
+print(result)
