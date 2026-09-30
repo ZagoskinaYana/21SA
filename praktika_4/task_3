@@ -1,8 +1,8 @@
 number = int(input())
-thousands = numder/1000
-hundreds = (number/100) % 10
-tens = (number/10) % 10
-units = (numder/1) % 10
+thousands = numder//1000
+hundreds = (number//100) % 10
+tens = (number//10) % 10
+units = (numder//1) % 10
 
 print(f"Цифра в позиции тысяч равна{thousands}")
 print(f"Цифра в позиции сотен равна{hundreds}")
