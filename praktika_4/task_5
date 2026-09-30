@@ -1,0 +1,4 @@
+total_minutes = int(input())
+hours = total_minutes/60
+remaining_minutes = total_minutes%60
+print(f"{total_minutes} минуты - это {hours} час {remaining_minutes} минут.")
