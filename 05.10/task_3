@@ -1,0 +1,17 @@
+def summa(x, y):
+  summa = x + y 
+  return summa
+z = summa(3, 7)
+z = 10
+k = summa(-5, 1)
+k = -4 
+
+ИЛИ
+
+def summa(x, y):
+  return x + y
+
+
+  impor math
+  def calculate_distance(x1, y1, x2, y2):
+    distance = math.sqrt
