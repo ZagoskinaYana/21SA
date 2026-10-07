@@ -1,0 +1,4 @@
+SEATS_PER_COMPARTMENT = 9
+seat = int(input("Введите номер места в купе: "))
+coup_num = (seat + 3) // 4 
+print(f"Ваш номер находится в {coup_num} купе")
