@@ -1,0 +1,16 @@
+my_list = [1, 2, 3]
+print(my_list) #выводим на экран исходный список
+my_list[0] = 100
+print(my_list) #выводим измененный список
+
+my_tuple = (1, 2, 3)
+print(my_tuple)
+my_tuple[0] = 100
+except TypeError: #ошибка, тк кортеж неизменяемый
+print("Ошибка")
+
+my_string = "cat"
+print(my_string)
+my_string[0] = 'b' 
+except TypeError: #ошибка, тк строка неизменяемый тип данных
+print(my_string)
