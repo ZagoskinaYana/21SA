@@ -8,4 +8,3 @@ elif (temp < 35 or temp >38) or (davl < 105 or davl > 140) or (puls < 55 or puls
   analis = ("Требуется врач")
 else:
   analis = ("Легкое недомогание")
-print(analis)
