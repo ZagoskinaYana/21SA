@@ -1,8 +1,5 @@
 n = int(iinput())
-if n < 0 or n > 36:
-  print ("ошибка ввода")
-
-elif n == 0:
+if n == 0:
   print("зеленый")
 
 elif 1 <= n <= 10:
@@ -29,3 +26,5 @@ elif 29 <= n <= 36:
   else:
     print ("черный")
 
+else:
+  print("ошибка ввода")
