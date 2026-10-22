@@ -1,5 +1,5 @@
+import random
 status = input("")
-match status:
   case "pending":
     print("Статус: В ожидании ⏳")
     print("Описание: Заказ успешно принят и ожидает подтверждения")
