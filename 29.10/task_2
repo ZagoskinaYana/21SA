@@ -1,4 +1,9 @@
 A = int(input())
 B = int(input())
-summa = 0
+sum = 0
 for number in range (A, B + 1):
+  if number % 2 == 0: #если четное число, то прибавляем его к переменной sum
+    summa = sum + number
+  else: #если число нечетное, то вычитаем его из переменной sum
+    summa = sum - number
+print() 
