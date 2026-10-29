@@ -1,1 +1,4 @@
-
+total_hours = 24
+part_in_day = 6
+tekushiy_hour = total_hours // part_in_day
+print("Сейчас", tekushiy_hour, "часа")
